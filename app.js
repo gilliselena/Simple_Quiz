@@ -1,7 +1,7 @@
-
 //Write the function to populate the question 
 
 function populate(){
+	// Show scores if quiz is ended
 	if(quiz.isEnded()){
 		showScores();
 	}
